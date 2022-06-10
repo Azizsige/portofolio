@@ -4,8 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1 class="text-3xl text-red-600 font-bold underline">Hello world!</h1>
+    <header class="bg-navbar">
+      <div class="flex items-center justify-between px-32 py-7">
+        <div class="logo">
+          <img src="./assets/logo.png" alt="" />
+        </div>
+        <div class="list space-x-10 text-white">
+          <a href="">Home</a>
+          <a href="">Updates</a>
+          <a href="">Services</a>
+          <a href="">Features</a>
+          <a href="">About Us</a>
+        </div>
+        <div
+          class="button text-navbar rounded-md bg-white shadow transition-all duration-700 ease-in-out hover:shadow-black"
+        >
+          <button class="px-5 py-2">LogIn</button>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
